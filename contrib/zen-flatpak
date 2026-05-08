@@ -4,16 +4,6 @@ fi
 
 if [[ -f "$HOME"/.var/app/app.zen_browser.zen/.zen/profiles.ini ]]; then
     profile_root="$HOME/.var/app/app.zen_browser.zen/.zen"
-elif [[ -f "$HOME"/.var/app/app.zen_browser.zen/zen/profiles.ini ]]; then
-    profile_root="$HOME/.var/app/app.zen_browser.zen/zen"
-elif [[ -f "$HOME"/.var/app/app.zen_browser.zen/config/zen/profiles.ini ]]; then
-    profile_root="$HOME/.var/app/app.zen_browser.zen/config/zen"
-elif [[ -f "$HOME"/.var/app/app.zen_browser.zen/data/zen/profiles.ini ]]; then
-    profile_root="$HOME/.var/app/app.zen_browser.zen/data/zen"
-elif [[ -f "$HOME"/.var/app/app.zen_browser.zen/config/.zen/profiles.ini ]]; then
-    profile_root="$HOME/.var/app/app.zen_browser.zen/config/.zen"
-elif [[ -f "$HOME"/.var/app/app.zen_browser.zen/data/.zen/profiles.ini ]]; then
-    profile_root="$HOME/.var/app/app.zen_browser.zen/data/.zen"
 fi
 
 if [[ -n "$profile_root" ]]; then
